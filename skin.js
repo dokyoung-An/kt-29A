@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.6/20004
-// Filename: KT?????-23B.ggsk
-// Generated 2023-10-30T20:48:28
+// Filename: KT?????-29A.ggsk
+// Generated 2023-10-30T21:32:36
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_mobilemenu', 2, false, { ignoreInState: 0  });
@@ -4063,7 +4063,7 @@ function pano2vrSkin(player,base) {
 		}
 		me.__off_0.logicBlock_visible();
 		me.__off_0.onclick=function (e) {
-			player.openNext("{node11}","$(cur)");
+			player.openNext("{node20}","$(cur)");
 			me.__off_0.style.transition='none';
 			me.__off_0.style.visibility='hidden';
 			me.__off_0.ggVisible=false;
@@ -11821,7 +11821,7 @@ function pano2vrSkin(player,base) {
 		}
 		me.__off_m0.logicBlock_visible();
 		me.__off_m0.onclick=function (e) {
-			player.openNext("{node11}","$(cur)");
+			player.openNext("{node20}","$(cur)");
 			me.__off_m0.style.transition='none';
 			me.__off_m0.style.visibility='hidden';
 			me.__off_m0.ggVisible=false;
@@ -18290,7 +18290,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._off2.logicBlock_textcolor();
 		me._off2.onclick=function (e) {
-			player.openNext("{node11}","");
+			player.openNext("{node20}","");
 			player.setVariableValue('vis_roombutton', false);
 			player.setVariableValue('vis_roombutton_1', false);
 			player.setVariableValue('vis_roombutton_2', false);
@@ -20173,10 +20173,10 @@ function pano2vrSkin(player,base) {
 		me._type20.onclick=function (e) {
 			if (
 				(
-					((player._(me.ggUserdata.information) != "74B"))
+					((player._(me.ggUserdata.information) != "29A"))
 				)
 			) {
-				player.openUrl("","");
+				player.openUrl("https:\/\/web-kt-29a-12fhqa2blnsl13cq.sel5.cloudtype.app\/","");
 			}
 		}
 		me._type20.ggUpdatePosition=function (useTransition) {
@@ -20274,7 +20274,7 @@ function pano2vrSkin(player,base) {
 		me._type1.onclick=function (e) {
 			if (
 				(
-					((player._(me.ggUserdata.information) != "74A"))
+					((player._(me.ggUserdata.information) != "23B"))
 				)
 			) {
 				player.openUrl("https:\/\/web-kt-23b-12fhqa2blnsl13cq.sel5.cloudtype.app\/","");
@@ -23482,7 +23482,7 @@ function pano2vrSkin(player,base) {
 			return player.getCurrentNode();
 		}
 		me._type2offenglish.onclick=function (e) {
-			player.openNext("{node18}","");
+			player.openNext("{node20}","");
 			player.setVariableValue('vis_sidebar', false);
 		}
 		me._type2offenglish.ggUpdatePosition=function (useTransition) {
@@ -24101,7 +24101,7 @@ function pano2vrSkin(player,base) {
 			return player.getCurrentNode();
 		}
 		me._type2offkor3.onclick=function (e) {
-			player.openNext("{node18}","");
+			player.openNext("{node20}","");
 			player.setVariableValue('vis_sidebar', false);
 		}
 		me._type2offkor3.ggUpdatePosition=function (useTransition) {
